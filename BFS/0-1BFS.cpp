@@ -1,4 +1,5 @@
 // a directed graph . I need to go 1 to n. how many direction should I reverse for going 1 to n.
+// checking github
 
 #include <bits/stdc++.h>
 using namespace std;

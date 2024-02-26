@@ -29,7 +29,7 @@ void dijkstra(int source)
             int childv = child.first;  // node
             int childd = child.second; // weight
 
-            if (dist[childv] > dist[v] + childd) // current weight > parent weight + self weight
+            if (dist[childv] > dist[v] + childd) // prev weight > current parent weight + self weight
             {
                 dist[childv] = dist[v] + childd;
                 s.insert({dist[childv], childv});
